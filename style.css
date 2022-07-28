@@ -1,4 +1,4 @@
-.carousel-item::before{
+.carousel-body-part::before{
     content: "";
     display: block;
     position: absolute;
@@ -12,4 +12,24 @@
 
 .join-part{
     height: 250px;
+}
+
+footer{
+    height: 400px;
+}
+
+.font-icon{
+    color: whitesmoke;
+    font-size: 30px;
+    
+
+}
+
+.font-icon i{
+    padding: 0 10px;
+}
+
+.font-icon i:hover{
+    color: rgba(18, 153, 231, 0.774);
+    transition: .8s;
 }
