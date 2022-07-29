@@ -22,43 +22,47 @@
 
   <header>
 
-    <section class="container mb-5">
-      <nav class="navbar navbar-expand-lg bg-white">
-        <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand fw-bold text-info " href="#">
-            <h1>Web Hero</h1>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+    <section class="container mb-3">
+      <!-- nav bar  -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  py-2 fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <h1 class="fw-bold">Pro Edu</h1></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
+          <div class="collapse navbar-collapse" id="navbarScroll">
 
-          <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2  mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active pt-2" aria-current="page" href="#">
-                  <h5>Home</h5>
-                </a>
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+
+              <li class="nav-item pe-lg-5 ps-lg-5 ms-lg-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Courses</a>
+              <li class="nav-item ps-lg-5 ms-lg-5">
+                <a class="nav-link active" aria-current="page" href="#">Courses</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Deals</a>
+              <li class="nav-item ps-lg-5 ms-lg-5">
+                <a class="nav-link active" aria-current="page" href="#">Deals</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Success</a>
+              <li class="nav-item ps-lg-5 ms-lg-5">
+                <a class="nav-link active" aria-current="page" href="#">Success</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">About</a>
+              <li class="nav-item ps-lg-5 ms-lg-3">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Resgister</a>
+              <li class="nav-item ps-lg-5 ms-lg-5">
+                <a class="nav-link active" aria-current="page" href="#">Register</a>
               </li>
+              
+             
+            </ul>
+          
+             
+              <button class="btn btn-outline-info px-4 btn-lg" type="submit">Register</button>
+           
           </div>
-          <button class="btn btn btn-outline-info px-5 py-2  border border-info" type="submit">Search</button>
         </div>
       </nav>
 
@@ -70,31 +74,31 @@
     <section class="container mb-5">
 
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-        </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner rounded-2">
           <div class="carousel-item carousel-body-part active">
             <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block mb-5 pb-5">
-              <h1 class="display-1 fw-semibold pb-3">Get Started Digital
+
+            <div class="carousel-caption d-block d-md-block text-center mb-lg-5">
+              <h1 class="display-2 fw-semibold ">Get Started Digital
                 Learning</h1>
-              <p class="pb-3">It is a long established fact that a reader will be distracted by the readablebr <br>
-                content of a page when looking at its layout..</p>
-              <div class="btn btn-info text-white px-4">Get Started</div>
+              <p class=" ">It is a long established fact that a reader will be distracted by the readablebr 
+              </p>
+              <div class="btn btn-info text-white px-4 mb-lg-5">Get Started</div>
             </div>
+            
           </div>
+
+
+
           <div class="carousel-item carousel-body-part ">
             <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block mb-5 pb-5">
-              <h1 class="display-1 fw-semibold pb-3">Get Started Digital
+
+            <div class="carousel-caption d-block d-md-block text-center mb-lg-5">
+              <h1 class="display-2 fw-semibold">Get Started Digital
                 Learning</h1>
-              <p class="pb-3">It is a long established fact that a reader will be distracted by the readablebr <br>
+              <p class="">It is a long established fact that a reader will be distracted by the readablebr
                 content of a page when looking at its layout..</p>
-              <div class="btn btn-info text-white px-4">Get Started</div>
+              <div class="btn btn-info text-white px-4 mb-lg-5">Get Started</div>
             </div>
           </div>
         </div>
@@ -301,7 +305,7 @@
 
 
 
-  <div class="accordion w-75 mx-lg-auto mb-5" id="accordionExample">
+  <div class="accordion w-75 mx-auto mb-5" id="accordionExample">
     <div class="accordion-item ">
       <h2 class="accordion-header" id="headingOne">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

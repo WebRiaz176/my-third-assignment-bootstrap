@@ -1,3 +1,5 @@
+/* header-banner-part */
+
 .carousel-body-part::before{
     content: "";
     display: block;
@@ -10,10 +12,13 @@
     opacity: 0.7;
 }
 
+/* main-part */
 .join-part{
     height: 250px;
 }
 
+
+/* footer-part */
 footer{
     height: 400px;
 }
